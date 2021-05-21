@@ -1,0 +1,395 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="Roach Stock" Height="540" Width="854" Background="White">
+
+
+
+    <Grid x:Name="G1" Margin="0,0,0,-5" Grid.ColumnSpan="2">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <ScrollViewer Margin="0,73,10,-1372">
+            <Grid x:Name="G2" Height="2114" Margin="0,5,0,0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="577"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <!--庫存顯示-->
+                <TextBox x:Name="T1" Margin="615,12,-65,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" IsEnabled="False" Height="20"/>
+                <TextBox x:Name="T2" HorizontalAlignment="Left" Margin="260,35,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" IsEnabled="False" Height="20"/>
+                <TextBox x:Name="T3" HorizontalAlignment="Left" Margin="260,60,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" IsEnabled="False" Height="20"/>
+                <TextBox x:Name="T4" HorizontalAlignment="Left" Margin="260,85,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" IsEnabled="False" Height="20"/>
+                <TextBox x:Name="T5" HorizontalAlignment="Left" Margin="260,110,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" IsEnabled="False" Height="20"/>
+                <TextBox x:Name="T6" HorizontalAlignment="Left" Margin="260,135,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" IsEnabled="False" Height="20"/>
+                <TextBox x:Name="T7" HorizontalAlignment="Left" Margin="260,160,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" IsEnabled="False" Height="20"/>
+                <TextBox x:Name="T8" HorizontalAlignment="Left" Margin="260,185,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" IsEnabled="False" Height="20"/>
+                <TextBox x:Name="T9" HorizontalAlignment="Left" Margin="260,210,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" IsEnabled="False" Height="20"/>
+                <TextBox x:Name="T10" HorizontalAlignment="Left" Margin="260,235,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" IsEnabled="False" Height="20"/>
+                <TextBox x:Name="T11" HorizontalAlignment="Left" Margin="260,260,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" IsEnabled="False" Height="20"/>
+                <TextBox x:Name="T12" HorizontalAlignment="Left" Margin="260,285,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" IsEnabled="False" Height="20"/>
+                <TextBox x:Name="T13" HorizontalAlignment="Left" Margin="260,310,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" IsEnabled="False" Height="20"/>
+                <TextBox x:Name="T14" HorizontalAlignment="Left" Margin="260,335,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" IsEnabled="False" Height="20"/>
+                <TextBox x:Name="T15" HorizontalAlignment="Left" Margin="260,360,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" IsEnabled="False" Height="20"/>
+                <TextBox x:Name="T16" HorizontalAlignment="Left" Margin="260,385,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" IsEnabled="False" Height="20"/>
+                <TextBox x:Name="T17" HorizontalAlignment="Left" Margin="260,410,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" IsEnabled="False" Height="20"/>
+                <TextBox x:Name="T18" HorizontalAlignment="Left" Margin="260,435,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" IsEnabled="False" Height="20"/>
+                <TextBox x:Name="T19" HorizontalAlignment="Left" Margin="260,460,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" IsEnabled="False" Height="20"/>
+                <TextBox x:Name="T20" HorizontalAlignment="Left" Margin="260,485,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" IsEnabled="False" Height="20"/>
+                <TextBox x:Name="T21" HorizontalAlignment="Left" Margin="260,510,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" IsEnabled="False" Height="20"/>
+                <TextBox x:Name="T22" HorizontalAlignment="Left" Margin="260,535,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" IsEnabled="False" Height="20"/>
+                <TextBox x:Name="T23" HorizontalAlignment="Left" Margin="260,560,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" IsEnabled="False" Height="20"/>
+                <TextBox x:Name="T24" HorizontalAlignment="Left" Margin="260,585,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" IsEnabled="False" Height="20"/>
+                <TextBox x:Name="T25" HorizontalAlignment="Left" Margin="260,610,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" IsEnabled="False" Height="20"/>
+                <TextBox x:Name="T26" HorizontalAlignment="Left" Margin="260,635,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" IsEnabled="False" Height="20"/>
+                <TextBox x:Name="T27" HorizontalAlignment="Left" Margin="260,660,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" IsEnabled="False" Height="20"/>
+                <TextBox x:Name="T28" HorizontalAlignment="Left" Margin="260,685,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" IsEnabled="False" Height="20"/>
+                <TextBox x:Name="T29" HorizontalAlignment="Left" Margin="260,710,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" IsEnabled="False" Height="20"/>
+                <TextBox x:Name="T30" HorizontalAlignment="Left" Margin="260,735,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" IsEnabled="False" Height="20"/>
+                <TextBox x:Name="T31" HorizontalAlignment="Left" Margin="260,760,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" IsEnabled="False" Height="20"/>
+                <TextBox x:Name="T32" HorizontalAlignment="Left" Margin="260,785,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" IsEnabled="False" Height="20"/>
+                <TextBox x:Name="T33" HorizontalAlignment="Left" Margin="260,810,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" IsEnabled="False" Height="20"/>
+                <TextBox x:Name="T34" HorizontalAlignment="Left" Margin="260,835,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" IsEnabled="False" Height="20"/>
+                <TextBox x:Name="T35" HorizontalAlignment="Left" Margin="260,860,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" IsEnabled="False" Height="20"/>
+                <TextBox x:Name="T36" HorizontalAlignment="Left" Margin="260,885,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" IsEnabled="False" Height="20"/>
+                <TextBox x:Name="T37" HorizontalAlignment="Left" Margin="260,910,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" IsEnabled="False" Height="20"/>
+                <TextBox x:Name="T38" HorizontalAlignment="Left" Margin="260,935,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" IsEnabled="False" Height="20"/>
+                <TextBox x:Name="T39" HorizontalAlignment="Left" Margin="260,960,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" IsEnabled="False" Height="20"/>
+                <TextBox x:Name="T40" HorizontalAlignment="Left" Margin="260,985,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" IsEnabled="False" Height="20"/>
+                <TextBox x:Name="T41" HorizontalAlignment="Left" Margin="260,1010,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" IsEnabled="False" Height="20"/>
+                <TextBox x:Name="T42" HorizontalAlignment="Left" Margin="260,1035,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" IsEnabled="False" Height="20"/>
+                <TextBox x:Name="T43" HorizontalAlignment="Left" Margin="260,1060,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" IsEnabled="False" Height="20"/>
+                <TextBox x:Name="T44" HorizontalAlignment="Left" Margin="260,1085,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" IsEnabled="False" Height="20"/>
+                <TextBox x:Name="T45" HorizontalAlignment="Left" Margin="260,1110,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" IsEnabled="False" Height="20"/>
+                <TextBox x:Name="T46" HorizontalAlignment="Left" Margin="260,1135,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" IsEnabled="False" Height="20"/>
+                <TextBox x:Name="T47" HorizontalAlignment="Left" Margin="260,1160,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" IsEnabled="False" Height="20"/>
+                <TextBox x:Name="T48" HorizontalAlignment="Left" Margin="260,1185,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" IsEnabled="False" Height="20"/>
+                <TextBox x:Name="T49" HorizontalAlignment="Left" Margin="260,1210,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" IsEnabled="False" Height="20"/>
+                <TextBox x:Name="T50" HorizontalAlignment="Left" Margin="260,1235,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" IsEnabled="False" Height="20"/>
+                <TextBox x:Name="T51" HorizontalAlignment="Left" Margin="260,1260,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" IsEnabled="False" Height="20"/>
+                <TextBox x:Name="T52" HorizontalAlignment="Left" Margin="260,1285,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" IsEnabled="False" Height="20"/>
+                <TextBox x:Name="T53" HorizontalAlignment="Left" Margin="260,1310,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" IsEnabled="False" Height="20"/>
+                <TextBox x:Name="T54" HorizontalAlignment="Left" Margin="260,1335,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" IsEnabled="False" Height="20"/>
+                <TextBox x:Name="T55" HorizontalAlignment="Left" Margin="260,1360,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" IsEnabled="False" Height="20"/>
+                <TextBox x:Name="T56" HorizontalAlignment="Left" Margin="260,1385,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" IsEnabled="False" Height="20"/>
+                <TextBox x:Name="T57" HorizontalAlignment="Left" Margin="260,1410,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" IsEnabled="False" Height="20"/>
+                <TextBox x:Name="T58" HorizontalAlignment="Left" Margin="260,1435,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" IsEnabled="False" Height="20"/>
+                <TextBox x:Name="T59" HorizontalAlignment="Left" Margin="260,1460,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" IsEnabled="False" Height="20"/>
+                <TextBox x:Name="T60" HorizontalAlignment="Left" Margin="260,1485,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" IsEnabled="False" Height="20"/>
+                <TextBox x:Name="T61" HorizontalAlignment="Left" Margin="260,1510,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" IsEnabled="False" Height="20"/>
+                <TextBox x:Name="T62" HorizontalAlignment="Left" Margin="260,1535,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" IsEnabled="False" Height="20"/>
+                <TextBox x:Name="T63" HorizontalAlignment="Left" Margin="260,1560,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" IsEnabled="False" Height="20"/>
+                <TextBox x:Name="T64" HorizontalAlignment="Left" Margin="260,1585,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" IsEnabled="False" Height="20"/>
+                <TextBox x:Name="T65" HorizontalAlignment="Left" Margin="260,1610,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" IsEnabled="False" Height="20"/>
+                <TextBox x:Name="T66" HorizontalAlignment="Left" Margin="260,1635,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" IsEnabled="False" Height="20"/>
+                <TextBox x:Name="T67" HorizontalAlignment="Left" Margin="260,1660,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" IsEnabled="False" Height="20"/>
+                <TextBox x:Name="T68" HorizontalAlignment="Left" Margin="260,1685,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" IsEnabled="False" Height="20"/>
+                <TextBox x:Name="T69" HorizontalAlignment="Left" Margin="260,1710,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" IsEnabled="False" Height="20"/>
+                <TextBox x:Name="T70" HorizontalAlignment="Left" Margin="260,1735,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" IsEnabled="False" Height="20"/>
+                <!--入庫數量編輯-->
+                <TextBox x:Name="I1" HorizontalAlignment="Left" Margin="360,10,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Height="20"/>
+                <TextBox x:Name="I2" HorizontalAlignment="Left" Margin="360,35,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Height="20"/>
+                <TextBox x:Name="I3" HorizontalAlignment="Left" Margin="360,60,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Height="20"/>
+                <TextBox x:Name="I4" HorizontalAlignment="Left" Margin="360,85,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Height="20"/>
+                <TextBox x:Name="I5" HorizontalAlignment="Left" Margin="360,110,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Height="20"/>
+                <TextBox x:Name="I6" HorizontalAlignment="Left" Margin="360,135,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Height="20"/>
+                <TextBox x:Name="I7" HorizontalAlignment="Left" Margin="360,160,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Height="20"/>
+                <TextBox x:Name="I8" HorizontalAlignment="Left" Margin="360,185,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Height="20"/>
+                <TextBox x:Name="I9" HorizontalAlignment="Left" Margin="360,210,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Height="20"/>
+                <TextBox x:Name="I10" HorizontalAlignment="Left" Margin="360,235,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Height="20"/>
+                <TextBox x:Name="I11" HorizontalAlignment="Left" Margin="360,260,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Height="20"/>
+                <TextBox x:Name="I12" HorizontalAlignment="Left" Margin="360,285,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Height="20"/>
+                <TextBox x:Name="I13" HorizontalAlignment="Left" Margin="360,310,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Height="20"/>
+                <TextBox x:Name="I14" HorizontalAlignment="Left" Margin="360,335,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Height="20"/>
+                <TextBox x:Name="I15" HorizontalAlignment="Left" Margin="360,360,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Height="20"/>
+                <TextBox x:Name="I16" HorizontalAlignment="Left" Margin="360,385,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Height="20"/>
+                <TextBox x:Name="I17" HorizontalAlignment="Left" Margin="360,410,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Height="20"/>
+                <TextBox x:Name="I18" HorizontalAlignment="Left" Margin="360,435,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Height="20"/>
+                <TextBox x:Name="I19" HorizontalAlignment="Left" Margin="360,460,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Height="20"/>
+                <TextBox x:Name="I20" HorizontalAlignment="Left" Margin="360,485,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Height="20"/>
+                <TextBox x:Name="I21" HorizontalAlignment="Left" Margin="360,510,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Height="20"/>
+                <TextBox x:Name="I22" HorizontalAlignment="Left" Margin="360,535,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Height="20"/>
+                <TextBox x:Name="I23" HorizontalAlignment="Left" Margin="360,560,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Height="20"/>
+                <TextBox x:Name="I24" HorizontalAlignment="Left" Margin="360,585,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Height="20"/>
+                <TextBox x:Name="I25" HorizontalAlignment="Left" Margin="360,610,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Height="20"/>
+                <TextBox x:Name="I26" HorizontalAlignment="Left" Margin="360,635,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Height="20"/>
+                <TextBox x:Name="I27" HorizontalAlignment="Left" Margin="360,660,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Height="20"/>
+                <TextBox x:Name="I28" HorizontalAlignment="Left" Margin="360,685,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Height="20"/>
+                <TextBox x:Name="I29" HorizontalAlignment="Left" Margin="360,710,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Height="20"/>
+                <TextBox x:Name="I30" HorizontalAlignment="Left" Margin="360,735,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Height="20"/>
+                <TextBox x:Name="I31" HorizontalAlignment="Left" Margin="360,760,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Height="20"/>
+                <TextBox x:Name="I32" HorizontalAlignment="Left" Margin="360,785,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Height="20"/>
+                <TextBox x:Name="I33" HorizontalAlignment="Left" Margin="360,810,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Height="20"/>
+                <TextBox x:Name="I34" HorizontalAlignment="Left" Margin="360,835,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Height="20"/>
+                <TextBox x:Name="I35" HorizontalAlignment="Left" Margin="360,860,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Height="20"/>
+                <TextBox x:Name="I36" HorizontalAlignment="Left" Margin="360,885,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Height="20"/>
+                <TextBox x:Name="I37" HorizontalAlignment="Left" Margin="360,910,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Height="20"/>
+                <TextBox x:Name="I38" HorizontalAlignment="Left" Margin="360,935,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Height="20"/>
+                <TextBox x:Name="I39" HorizontalAlignment="Left" Margin="360,960,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Height="20"/>
+                <TextBox x:Name="I40" HorizontalAlignment="Left" Margin="360,985,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Height="20"/>
+                <TextBox x:Name="I41" HorizontalAlignment="Left" Margin="360,1010,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Height="20"/>
+                <TextBox x:Name="I42" HorizontalAlignment="Left" Margin="360,1035,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Height="20"/>
+                <TextBox x:Name="I43" HorizontalAlignment="Left" Margin="360,1060,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Height="20"/>
+                <TextBox x:Name="I44" HorizontalAlignment="Left" Margin="360,1085,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Height="20"/>
+                <TextBox x:Name="I45" HorizontalAlignment="Left" Margin="360,1110,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Height="20"/>
+                <TextBox x:Name="I46" HorizontalAlignment="Left" Margin="360,1135,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Height="20"/>
+                <TextBox x:Name="I47" HorizontalAlignment="Left" Margin="360,1160,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Height="20"/>
+                <TextBox x:Name="I48" HorizontalAlignment="Left" Margin="360,1185,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Height="20"/>
+                <TextBox x:Name="I49" HorizontalAlignment="Left" Margin="360,1210,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Height="20"/>
+                <TextBox x:Name="I50" HorizontalAlignment="Left" Margin="360,1235,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Height="20"/>
+                <TextBox x:Name="I51" HorizontalAlignment="Left" Margin="360,1260,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Height="20"/>
+                <TextBox x:Name="I52" HorizontalAlignment="Left" Margin="360,1285,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Height="20"/>
+                <TextBox x:Name="I53" HorizontalAlignment="Left" Margin="360,1310,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Height="20"/>
+                <TextBox x:Name="I54" HorizontalAlignment="Left" Margin="360,1335,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Height="20"/>
+                <TextBox x:Name="I55" HorizontalAlignment="Left" Margin="360,1360,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Height="20"/>
+                <TextBox x:Name="I56" HorizontalAlignment="Left" Margin="360,1385,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Height="20"/>
+                <TextBox x:Name="I57" HorizontalAlignment="Left" Margin="360,1410,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Height="20"/>
+                <TextBox x:Name="I58" HorizontalAlignment="Left" Margin="360,1435,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Height="20"/>
+                <TextBox x:Name="I59" HorizontalAlignment="Left" Margin="360,1460,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Height="20"/>
+                <TextBox x:Name="I60" HorizontalAlignment="Left" Margin="360,1485,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Height="20"/>
+                <TextBox x:Name="I61" HorizontalAlignment="Left" Margin="360,1510,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Height="20"/>
+                <TextBox x:Name="I62" HorizontalAlignment="Left" Margin="360,1535,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Height="20"/>
+                <TextBox x:Name="I63" HorizontalAlignment="Left" Margin="360,1560,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Height="20"/>
+                <TextBox x:Name="I64" HorizontalAlignment="Left" Margin="360,1585,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Height="20"/>
+                <TextBox x:Name="I65" HorizontalAlignment="Left" Margin="360,1610,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Height="20"/>
+                <TextBox x:Name="I66" HorizontalAlignment="Left" Margin="360,1635,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Height="20"/>
+                <TextBox x:Name="I67" HorizontalAlignment="Left" Margin="360,1660,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Height="20"/>
+                <TextBox x:Name="I68" HorizontalAlignment="Left" Margin="360,1685,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Height="20"/>
+                <TextBox x:Name="I69" HorizontalAlignment="Left" Margin="360,1710,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Height="20"/>
+                <TextBox x:Name="I70" HorizontalAlignment="Left" Margin="360,1735,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Height="20"/>
+                <!--出庫數量編輯-->
+                <TextBox x:Name="O1" HorizontalAlignment="Left" Margin="460,10,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Height="20"/>
+                <TextBox x:Name="O2" HorizontalAlignment="Left" Margin="460,35,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Height="20"/>
+                <TextBox x:Name="O3" HorizontalAlignment="Left" Margin="460,60,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Height="20"/>
+                <TextBox x:Name="O4" HorizontalAlignment="Left" Margin="460,85,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Height="20"/>
+                <TextBox x:Name="O5" HorizontalAlignment="Left" Margin="460,110,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Height="20"/>
+                <TextBox x:Name="O6" HorizontalAlignment="Left" Margin="460,135,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Height="20"/>
+                <TextBox x:Name="O7" HorizontalAlignment="Left" Margin="460,160,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Height="20"/>
+                <TextBox x:Name="O8" HorizontalAlignment="Left" Margin="460,185,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Height="20"/>
+                <TextBox x:Name="O9" HorizontalAlignment="Left" Margin="460,210,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Height="20"/>
+                <TextBox x:Name="O10" HorizontalAlignment="Left" Margin="460,235,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Height="20"/>
+                <TextBox x:Name="O11" HorizontalAlignment="Left" Margin="460,260,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Height="20"/>
+                <TextBox x:Name="O12" HorizontalAlignment="Left" Margin="460,285,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Height="20"/>
+                <TextBox x:Name="O13" HorizontalAlignment="Left" Margin="460,310,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Height="20"/>
+                <TextBox x:Name="O14" HorizontalAlignment="Left" Margin="460,335,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Height="20"/>
+                <TextBox x:Name="O15" HorizontalAlignment="Left" Margin="460,360,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Height="20"/>
+                <TextBox x:Name="O16" HorizontalAlignment="Left" Margin="460,385,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Height="20"/>
+                <TextBox x:Name="O17" HorizontalAlignment="Left" Margin="460,410,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Height="20"/>
+                <TextBox x:Name="O18" HorizontalAlignment="Left" Margin="460,435,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Height="20"/>
+                <TextBox x:Name="O19" HorizontalAlignment="Left" Margin="460,460,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Height="20"/>
+                <TextBox x:Name="O20" HorizontalAlignment="Left" Margin="460,485,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Height="20"/>
+                <TextBox x:Name="O21" HorizontalAlignment="Left" Margin="460,510,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Height="20"/>
+                <TextBox x:Name="O22" HorizontalAlignment="Left" Margin="460,535,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Height="20"/>
+                <TextBox x:Name="O23" HorizontalAlignment="Left" Margin="460,560,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Height="20"/>
+                <TextBox x:Name="O24" HorizontalAlignment="Left" Margin="460,585,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Height="20"/>
+                <TextBox x:Name="O25" HorizontalAlignment="Left" Margin="460,610,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Height="20"/>
+                <TextBox x:Name="O26" HorizontalAlignment="Left" Margin="460,635,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Height="20"/>
+                <TextBox x:Name="O27" HorizontalAlignment="Left" Margin="460,660,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Height="20"/>
+                <TextBox x:Name="O28" HorizontalAlignment="Left" Margin="460,685,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Height="20"/>
+                <TextBox x:Name="O29" HorizontalAlignment="Left" Margin="460,710,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Height="20"/>
+                <TextBox x:Name="O30" HorizontalAlignment="Left" Margin="460,735,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Height="20"/>
+                <TextBox x:Name="O31" HorizontalAlignment="Left" Margin="460,760,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Height="20"/>
+                <TextBox x:Name="O32" HorizontalAlignment="Left" Margin="460,785,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Height="20"/>
+                <TextBox x:Name="O33" HorizontalAlignment="Left" Margin="460,810,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Height="20"/>
+                <TextBox x:Name="O34" HorizontalAlignment="Left" Margin="460,835,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Height="20"/>
+                <TextBox x:Name="O35" HorizontalAlignment="Left" Margin="460,860,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Height="20"/>
+                <TextBox x:Name="O36" HorizontalAlignment="Left" Margin="460,885,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Height="20"/>
+                <TextBox x:Name="O37" HorizontalAlignment="Left" Margin="460,910,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Height="20"/>
+                <TextBox x:Name="O38" HorizontalAlignment="Left" Margin="460,935,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Height="20"/>
+                <TextBox x:Name="O39" HorizontalAlignment="Left" Margin="460,960,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Height="20"/>
+                <TextBox x:Name="O40" HorizontalAlignment="Left" Margin="460,985,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Height="20"/>
+                <TextBox x:Name="O41" HorizontalAlignment="Left" Margin="460,1010,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Height="20"/>
+                <TextBox x:Name="O42" HorizontalAlignment="Left" Margin="460,1035,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Height="20"/>
+                <TextBox x:Name="O43" HorizontalAlignment="Left" Margin="460,1060,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Height="20"/>
+                <TextBox x:Name="O44" HorizontalAlignment="Left" Margin="460,1085,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Height="20"/>
+                <TextBox x:Name="O45" HorizontalAlignment="Left" Margin="460,1110,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Height="20"/>
+                <TextBox x:Name="O46" HorizontalAlignment="Left" Margin="460,1135,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Height="20"/>
+                <TextBox x:Name="O47" HorizontalAlignment="Left" Margin="460,1160,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Height="20"/>
+                <TextBox x:Name="O48" HorizontalAlignment="Left" Margin="460,1185,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Height="20"/>
+                <TextBox x:Name="O49" HorizontalAlignment="Left" Margin="460,1210,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Height="20"/>
+                <TextBox x:Name="O50" HorizontalAlignment="Left" Margin="460,1235,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Height="20"/>
+                <TextBox x:Name="O51" HorizontalAlignment="Left" Margin="460,1260,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Height="20"/>
+                <TextBox x:Name="O52" HorizontalAlignment="Left" Margin="460,1285,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Height="20"/>
+                <TextBox x:Name="O53" HorizontalAlignment="Left" Margin="460,1310,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Height="20"/>
+                <TextBox x:Name="O54" HorizontalAlignment="Left" Margin="460,1335,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Height="20"/>
+                <TextBox x:Name="O55" HorizontalAlignment="Left" Margin="460,1360,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Height="20"/>
+                <TextBox x:Name="O56" HorizontalAlignment="Left" Margin="460,1385,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Height="20"/>
+                <TextBox x:Name="O57" HorizontalAlignment="Left" Margin="460,1410,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Height="20"/>
+                <TextBox x:Name="O58" HorizontalAlignment="Left" Margin="460,1435,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Height="20"/>
+                <TextBox x:Name="O59" HorizontalAlignment="Left" Margin="460,1460,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Height="20"/>
+                <TextBox x:Name="O60" HorizontalAlignment="Left" Margin="460,1485,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Height="20"/>
+                <TextBox x:Name="O61" HorizontalAlignment="Left" Margin="460,1510,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Height="20"/>
+                <TextBox x:Name="O62" HorizontalAlignment="Left" Margin="460,1535,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Height="20"/>
+                <TextBox x:Name="O63" HorizontalAlignment="Left" Margin="460,1560,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Height="20"/>
+                <TextBox x:Name="O64" HorizontalAlignment="Left" Margin="460,1585,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Height="20"/>
+                <TextBox x:Name="O65" HorizontalAlignment="Left" Margin="460,1610,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Height="20"/>
+                <TextBox x:Name="O66" HorizontalAlignment="Left" Margin="460,1635,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Height="20"/>
+                <TextBox x:Name="O67" HorizontalAlignment="Left" Margin="460,1660,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Height="20"/>
+                <TextBox x:Name="O68" HorizontalAlignment="Left" Margin="460,1685,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Height="20"/>
+                <TextBox x:Name="O69" HorizontalAlignment="Left" Margin="460,1710,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Height="20"/>
+                <TextBox x:Name="O70" HorizontalAlignment="Left" Margin="460,1735,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Height="20"/>
+                <!---->
+                <Grid HorizontalAlignment="Left" Margin="363,226,0,0" VerticalAlignment="Top" Width="17" Height="0"/>
+                <!--型號顯示-->
+                <Label x:Name="item1" Content="14-FL-2116" HorizontalAlignment="Left" Margin="24,10,0,0" VerticalAlignment="Top" Height="25" Width="210" RenderTransformOrigin="0.527,-0.97"/>
+                <Label x:Name="item2" Content="14-FL-2119" HorizontalAlignment="Left" Margin="24,35,0,0" VerticalAlignment="Top" Height="25" Width="210"/>
+                <Label x:Name="item3" Content="FL-2215" HorizontalAlignment="Left" Margin="24,60,0,0" VerticalAlignment="Top" Height="25" Width="210"/>
+                <Label x:Name="item4" Content="14-M8V-15A4-V" HorizontalAlignment="Left" Margin="24,85,0,0" VerticalAlignment="Top" Height="26" Width="210" RenderTransformOrigin="0.564,-0.49"/>
+                <Label x:Name="item5" Content="15-BRCAST" HorizontalAlignment="Left" Margin="24,110,0,0" VerticalAlignment="Top" Height="25" Width="210"/>
+                <Label x:Name="item6" Content="15-BRMAIN" HorizontalAlignment="Left" Margin="24,135,0,0" VerticalAlignment="Top" Height="25" Width="210"/>
+                <Label x:Name="item7" Content="21-5LP-R-00" HorizontalAlignment="Left" Margin="24,160,0,0" VerticalAlignment="Top" Height="25" Width="210"/>
+                <Label x:Name="item8" Content="21-FL-8306 BOARD" HorizontalAlignment="Left" Margin="24,185,0,0" VerticalAlignment="Top" Height="25" Width="210"/>
+                <Label x:Name="item9" Content="21-FL-8306 CONTROL PANEL" HorizontalAlignment="Left" Margin="24,210,0,0" VerticalAlignment="Top" Height="25" Width="210"/>
+                <Label x:Name="item10" Content="21-FP\IOPWR" HorizontalAlignment="Left" Margin="24,235,0,0" VerticalAlignment="Top" Height="25" Width="210"/>
+                <Label x:Name="item11" Content="21-FP\RPANEL_AN-LY4-01" HorizontalAlignment="Left" Margin="24,260,0,0" VerticalAlignment="Top" Height="25" Width="210"/>
+                <Label x:Name="item12" Content="21-FP\RPANEL-LY4-02" HorizontalAlignment="Left" Margin="24,285,0,0" VerticalAlignment="Top" Height="25" Width="210"/>
+                <Label x:Name="item13" Content="21-FPA\LCD-PWR2A-01" HorizontalAlignment="Left" Margin="24,310,0,0" VerticalAlignment="Top" Height="25" Width="210"/>
+                <Label x:Name="item14" Content="21-HUBIS11A-05" HorizontalAlignment="Left" Margin="24,335,0,0" VerticalAlignment="Top" Height="24" Width="210"/>
+                <Label x:Name="item15" Content="21-O_UTIL\232-485-01" HorizontalAlignment="Left" Margin="24,360,0,0" VerticalAlignment="Top" Height="25" Width="210"/>
+                <Label x:Name="item16" Content="21-PHONE-CS-02" HorizontalAlignment="Left" Margin="24,385,0,0" VerticalAlignment="Top" Height="25" Width="210"/>
+                <Label x:Name="item17" Content="21-RPANEL-LY4-PASS-02" HorizontalAlignment="Left" Margin="24,410,0,0" VerticalAlignment="Top" Height="25" Width="210"/>
+                <Label x:Name="item18" Content="21-RPANEL_AN_-LY4-04" HorizontalAlignment="Left" Margin="24,435,0,0" VerticalAlignment="Top" Height="25" Width="210"/>
+                <Label x:Name="item19" Content="22-BKPW5C-LY4-01" HorizontalAlignment="Left" Margin="24,460,0,0" VerticalAlignment="Top" Height="25" Width="210"/>
+                <Label x:Name="item20" Content="22-FP\LV31_CP2-LY4-01" HorizontalAlignment="Left" Margin="24,485,0,0" VerticalAlignment="Top" Height="25" Width="210"/>
+                <Label x:Name="item21" Content="22-FP\LV31_CP2-LY4-05" HorizontalAlignment="Left" Margin="24,510,0,0" VerticalAlignment="Top" Height="25" Width="210"/>
+                <Label x:Name="item22" Content="22-FP\LV31_CP2-LY4-05-UP" HorizontalAlignment="Left" Margin="24,535,0,0" VerticalAlignment="Top" Height="25" Width="210"/>
+                <Label x:Name="item23" Content="22-FP\LV31_PWR" HorizontalAlignment="Left" Margin="24,560,0,0" VerticalAlignment="Top" Height="25" Width="210"/>
+                <Label x:Name="item24" Content="23-B-H137-05" HorizontalAlignment="Left" Margin="24,585,0,0" VerticalAlignment="Top" Height="24" Width="210"/>
+                <Label x:Name="item25" Content="23-FIRE_119-09" HorizontalAlignment="Left" Margin="24,610,0,0" VerticalAlignment="Top" Height="25" Width="210"/>
+                <Label x:Name="item26" Content="23-ISO_PWR2-02 5V" HorizontalAlignment="Left" Margin="24,635,0,0" VerticalAlignment="Top" Height="25" Width="210"/>
+                <Label x:Name="item27" Content="23-ISO_PWR2-04 27V" HorizontalAlignment="Left" Margin="24,660,0,0" VerticalAlignment="Top" Height="25" Width="210"/>
+                <Label x:Name="item28" Content="23-ISO_PWR2-04 32V" HorizontalAlignment="Left" Margin="24,685,0,0" VerticalAlignment="Top" Height="25" Width="210"/>
+                <Label x:Name="item29" Content="23-PHONE-32V-02" HorizontalAlignment="Left" Margin="24,710,0,0" VerticalAlignment="Top" Height="25" Width="210"/>
+                <Label x:Name="item30" Content="24-D-2235" HorizontalAlignment="Left" Margin="24,735,0,0" VerticalAlignment="Top" Height="25" Width="210"/>
+                <Label x:Name="item31" Content="24-FL-3015B-C" HorizontalAlignment="Left" Margin="24,760,0,0" VerticalAlignment="Top" Height="25" Width="210"/>
+                <Label x:Name="item32" Content="24-FL-3015B-NRS-C" HorizontalAlignment="Left" Margin="24,785,0,0" VerticalAlignment="Top" Height="25" Width="210"/>
+                <Label x:Name="item33" Content="24-FL-3215-C" HorizontalAlignment="Left" Margin="24,810,0,0" VerticalAlignment="Top" Height="25" Width="210"/>
+                <Label x:Name="item34" Content="24-FL-3217-C" HorizontalAlignment="Left" Margin="24,835,0,0" VerticalAlignment="Top" Height="24" Width="210"/>
+                <Label x:Name="item35" Content="24-FL-3225-1" HorizontalAlignment="Left" Margin="24,860,0,0" VerticalAlignment="Top" Height="25" Width="210"/>
+                <Label x:Name="item36" Content="24-FL-5015B-C" HorizontalAlignment="Left" Margin="23,885,0,0" VerticalAlignment="Top" Height="25" Width="210"/>
+                <Label x:Name="item37" Content="24-FL-5015B-NRS-C" HorizontalAlignment="Left" Margin="23,910,0,0" VerticalAlignment="Top" Height="25" Width="210"/>
+                <Label x:Name="item38" Content="24-FL-5035A-C" HorizontalAlignment="Left" Margin="23,935,0,0" VerticalAlignment="Top" Height="25" Width="210"/>
+                <Label x:Name="item39" Content="24-FL-5117-C" HorizontalAlignment="Left" Margin="23,960,0,0" VerticalAlignment="Top" Height="26" Width="210"/>
+                <Label x:Name="item40" Content="24-FL-5215-C" HorizontalAlignment="Left" Margin="23,985,0,0" VerticalAlignment="Top" Height="25" Width="210"/>
+                <Label x:Name="item41" Content="24-FL-5225-1" HorizontalAlignment="Left" Margin="23,1010,0,0" VerticalAlignment="Top" Height="25" Width="210"/>
+                <Label x:Name="item42" Content="24-FL-5235-1" HorizontalAlignment="Left" Margin="23,1035,0,0" VerticalAlignment="Top" Height="25" Width="210"/>
+                <Label x:Name="item43" Content="24-FL-6215-C" HorizontalAlignment="Left" Margin="23,1060,0,0" VerticalAlignment="Top" Height="25" Width="210"/>
+                <Label x:Name="item44" Content="24-FL-M8S4-SEN-01" HorizontalAlignment="Left" Margin="23,1085,0,0" VerticalAlignment="Top" Height="25" Width="210"/>
+                <Label x:Name="item45" Content="24-FL-SEN-BASE-01" HorizontalAlignment="Left" Margin="23,1110,0,0" VerticalAlignment="Top" Height="25" Width="210"/>
+                <Label x:Name="item46" Content="24-FL-SEN-BASE-01-H" HorizontalAlignment="Left" Margin="23,1135,0,0" VerticalAlignment="Top" Height="25" Width="210"/>
+                <Label x:Name="item47" Content="24-FL-SEN-CONTINUOUS-BASE-01" HorizontalAlignment="Left" Margin="23,1160,0,0" VerticalAlignment="Top" Height="25" Width="210"/>
+                <Label x:Name="item48" Content="31-CB-D36-8080-RA" HorizontalAlignment="Left" Margin="23,1185,0,0" VerticalAlignment="Top" Height="25" Width="210"/>
+                <Label x:Name="item49" Content="31-CF CARD  128MB" HorizontalAlignment="Left" Margin="23,1210,0,0" VerticalAlignment="Top" Height="24" Width="210"/>
+                <Label x:Name="item50" Content="31-D36-8081" HorizontalAlignment="Left" Margin="23,1235,0,0" VerticalAlignment="Top" Height="25" Width="210"/>
+                <Label x:Name="item51" Content="31-DEMAND-3117/5W.RES" HorizontalAlignment="Left" Margin="23,1260,0,0" VerticalAlignment="Top" Height="25" Width="210"/>
+                <Label x:Name="item52" Content="31-FB2400" HorizontalAlignment="Left" Margin="23,1285,0,0" VerticalAlignment="Top" Height="25" Width="210"/>
+                <Label x:Name="item53" Content="31-IPC-UTIL\IO232-03" HorizontalAlignment="Left" Margin="23,1310,0,0" VerticalAlignment="Top" Height="25" Width="210"/>
+                <Label x:Name="item54" Content="31-LF-PB42W29C" HorizontalAlignment="Left" Margin="23,1335,0,0" VerticalAlignment="Top" Height="25" Width="210"/>
+                <Label x:Name="item55" Content="31-LF-PB42W29D" HorizontalAlignment="Left" Margin="23,1360,0,0" VerticalAlignment="Top" Height="25" Width="210"/>
+                <Label x:Name="item56" Content="31-MONITOR-15-5" HorizontalAlignment="Left" Margin="23,1385,0,0" VerticalAlignment="Top" Height="25" Width="210"/>
+                <Label x:Name="item57" Content="31-SD CARD  4GHC" HorizontalAlignment="Left" Margin="23,1410,0,0" VerticalAlignment="Top" Height="25" Width="210"/>
+                <Label x:Name="item58" Content="31-SH320240AFWB-HB-K" HorizontalAlignment="Left" Margin="23,1435,0,0" VerticalAlignment="Top" Height="25" Width="210"/>
+                <Label x:Name="item59" Content="33-RSP-320-27" HorizontalAlignment="Left" Margin="23,1460,0,0" VerticalAlignment="Top" Height="24" Width="210"/>
+                <Label x:Name="item60" Content="34-SEN-S-CM-1" HorizontalAlignment="Left" Margin="23,1485,0,0" VerticalAlignment="Top" Height="25" Width="210"/>
+                <Label x:Name="item61" Content="51-232toUSB" HorizontalAlignment="Left" Margin="23,1510,0,0" VerticalAlignment="Top" Height="25" Width="210"/>
+                <Label x:Name="item62" Content="51-FD-0909-22" HorizontalAlignment="Left" Margin="23,1535,0,0" VerticalAlignment="Top" Height="25" Width="210"/>
+                <Label x:Name="item63" Content="51-FD-0909-90" HorizontalAlignment="Left" Margin="23,1560,0,0" VerticalAlignment="Top" Height="25" Width="210"/>
+                <Label x:Name="item64" Content="51-FD-2020-100" HorizontalAlignment="Left" Margin="23,1585,0,0" VerticalAlignment="Top" Height="25" Width="210"/>
+                <Label x:Name="item65" Content="51-FD-2020-9.5" HorizontalAlignment="Left" Margin="23,1610,0,0" VerticalAlignment="Top" Height="25" Width="210"/>
+                <Label x:Name="item66" Content="51-FD-2626-06" HorizontalAlignment="Left" Margin="23,1635,0,0" VerticalAlignment="Top" Height="25" Width="210"/>
+                <Label x:Name="item67" Content="51-HD-0200-45E" HorizontalAlignment="Left" Margin="23,1660,0,0" VerticalAlignment="Top" Height="25" Width="210"/>
+                <Label x:Name="item68" Content="51-HD-0600-120" HorizontalAlignment="Left" Margin="23,1685,0,0" VerticalAlignment="Top" Height="25" Width="210"/>
+                <Label x:Name="item69" Content="51-HD-0600-500" HorizontalAlignment="Left" Margin="23,1710,0,0" VerticalAlignment="Top" Height="24" Width="210"/>
+                <Label x:Name="item70" Content="51-HD-0904-120" HorizontalAlignment="Left" Margin="23,1735,0,0" VerticalAlignment="Top" Height="25" Width="210"/>
+                <!--品名-->
+                <Label x:Name="N1" Content="中繼器（電流型）" HorizontalAlignment="Left" Margin="225,10,0,0" VerticalAlignment="Top" Height="25" Width="375"/>
+                <Label x:Name="N2" Content="中繼器（緊急電話）" HorizontalAlignment="Left" Margin="225,35,0,0" VerticalAlignment="Top" Height="25" Width="375"/>
+                <Label x:Name="N3" Content="中繼器(監視/控制)" HorizontalAlignment="Left" Margin="225,60,0,0" VerticalAlignment="Top" Height="25" Width="375" RenderTransformOrigin="-0.444,-1.21"/>
+                <Label x:Name="N4" Content="連結型中繼器(監視/控制)" HorizontalAlignment="Left" Margin="225,85,0,0" VerticalAlignment="Top" Height="26" Width="375"/>
+                <Label x:Name="N5" Content="廣播移報模組-副板(20L)(附3M膠片,螺絲)" HorizontalAlignment="Left" Margin="225,110,0,0" VerticalAlignment="Top" Height="25" Width="375"/>
+                <Label x:Name="N6" Content="廣播移報模組-主板(附3M膠片,螺絲)" HorizontalAlignment="Left" Margin="225,135,0,0" VerticalAlignment="Top" Height="25" Width="375"/>
+                <Label x:Name="N7" Content="總機5回路P轉R上下板組合模組(供-)" HorizontalAlignment="Left" Margin="225,160,0,0" VerticalAlignment="Top" Height="25" Width="375"/>
+                <Label x:Name="N8" Content="總機-FL-8306-IPC主機板" HorizontalAlignment="Left" Margin="225,185,0,0" VerticalAlignment="Top" Height="25" Width="375"/>
+                <Label x:Name="N9" Content="總機-FL-8306廣播移報板" HorizontalAlignment="Left" Margin="225,210,0,0" VerticalAlignment="Top" Height="25" Width="375"/>
+                <Label x:Name="N10" Content="總機-IO電源板(新)" HorizontalAlignment="Left" Margin="225,235,0,0" VerticalAlignment="Top" Height="25" Width="375"/>
+                <Label x:Name="N11" Content="總機-類比控制面板-01(8117.8217無密碼)" HorizontalAlignment="Left" Margin="225,260,0,0" VerticalAlignment="Top" Height="25" Width="375"/>
+                <Label x:Name="N12" Content="總機-控制面板-06(8215,8306無密碼)" HorizontalAlignment="Left" Margin="225,285,0,0" VerticalAlignment="Top" Height="25" Width="375"/>
+                <Label x:Name="N13" Content="總機-LCD電源供應板-01" HorizontalAlignment="Left" Margin="225,310,0,0" VerticalAlignment="Top" Height="25" Width="375"/>
+                <Label x:Name="N14" Content="總機5回路P轉R(增幅器)HUBIS11A-05" HorizontalAlignment="Left" Margin="225,335,0,0" VerticalAlignment="Top" Height="24" Width="375"/>
+                <Label x:Name="N15" Content="總機-232-485通信板" HorizontalAlignment="Left" Margin="225,360,0,0" VerticalAlignment="Top" Height="25" Width="375"/>
+                <Label x:Name="N16" Content="總機-電話小板-02" HorizontalAlignment="Left" Margin="225,385,0,0" VerticalAlignment="Top" Height="25" Width="375"/>
+                <Label x:Name="N17" Content="總機控制面板PASS-02標準型(8215,8306有密碼)" HorizontalAlignment="Left" Margin="225,410,0,0" VerticalAlignment="Top" Height="25" Width="375"/>
+                <Label x:Name="N18" Content="類比高階總機控制面板(PASS)-01(8117有密碼)" HorizontalAlignment="Left" Margin="225,435,0,0" VerticalAlignment="Top" Height="25" Width="375"/>
+                <Label x:Name="N19" Content="中繼站-I/O電源板(四層板)" HorizontalAlignment="Left" Margin="225,460,0,0" VerticalAlignment="Top" Height="25" Width="375"/>
+                <Label x:Name="N20" Content="中繼站-數位驅動板組(上板)(四層板)" HorizontalAlignment="Left" Margin="225,485,0,0" VerticalAlignment="Top" Height="25" Width="375"/>
+                <Label x:Name="N21" Content="中繼站-類比驅動板組-05(四層板)" HorizontalAlignment="Left" Margin="225,510,0,0" VerticalAlignment="Top" Height="25" Width="375"/>
+                <Label x:Name="N22" Content="中繼站-類比驅動板組-05(上板)(四層板)" HorizontalAlignment="Left" Margin="225,535,0,0" VerticalAlignment="Top" Height="25" Width="375"/>
+                <Label x:Name="N23" Content="中繼站-驅動板組(下板)" HorizontalAlignment="Left" Margin="225,560,0,0" VerticalAlignment="Top" Height="25" Width="375"/>
+                <Label x:Name="N24" Content="共用-通訊小板-05" HorizontalAlignment="Left" Margin="225,585,0,0" VerticalAlignment="Top" Height="24" Width="375"/>
+                <Label x:Name="N25" Content="119火災通報裝置通報板" HorizontalAlignment="Left" Margin="225,610,0,0" VerticalAlignment="Top" Height="25" Width="375"/>
+                <Label x:Name="N26" Content="共用-5V電源板-02" HorizontalAlignment="Left" Margin="225,635,0,0" VerticalAlignment="Top" Height="25" Width="375"/>
+                <Label x:Name="N27" Content="共用-27V電源板-04(中繼站用)" HorizontalAlignment="Left" Margin="225,660,0,0" VerticalAlignment="Top" Height="25" Width="375"/>
+                <Label x:Name="N28" Content="共用-32V電源板-04(總機用)" HorizontalAlignment="Left" Margin="225,685,0,0" VerticalAlignment="Top" Height="25" Width="375"/>
+                <Label x:Name="N29" Content="PHONE-32V-02 電話小板+32V板" HorizontalAlignment="Left" Margin="225,710,0,0" VerticalAlignment="Top" Height="25" Width="375"/>
+                <Label x:Name="N30" Content="電解電容(無極性) 10uF/25V 續接型探測器專用終端電容" HorizontalAlignment="Left" Margin="225,735,0,0" VerticalAlignment="Top" Height="25" Width="375"/>
+                <Label x:Name="N31" Content="類比型定址偵煙式探測器(探頭)(2種)(可續接)(防水蓋)" HorizontalAlignment="Left" Margin="225,760,0,0" VerticalAlignment="Top" Height="25" Width="375"/>
+                <Label x:Name="N32" Content="類比型定址偵煙式探測器(探頭)(2種)(可續接)(無磁簧)" HorizontalAlignment="Left" Margin="225,785,0,0" VerticalAlignment="Top" Height="25" Width="375"/>
+                <Label x:Name="N33" Content="類比型定址偵煙式探測器(2種)(探頭)(防水蓋)" HorizontalAlignment="Left" Margin="225,810,0,0" VerticalAlignment="Top" Height="25" Width="375"/>
+                <Label x:Name="N34" Content="類比型定址偵煙式探測器(2種)(探頭)(IP42)(高階)" HorizontalAlignment="Left" Margin="225,835,0,0" VerticalAlignment="Top" Height="24" Width="375"/>
+                <Label x:Name="N35" Content="定址型偵煙式探測器底座(光電式)(續接型)" HorizontalAlignment="Left" Margin="225,860,0,0" VerticalAlignment="Top" Height="25" Width="375"/>
+                <Label x:Name="N36" Content="類比型定址補償式探測器(探頭)(2種)(可續接)(防水蓋)" HorizontalAlignment="Left" Margin="225,885,0,0" VerticalAlignment="Top" Height="25" Width="375"/>
+                <Label x:Name="N37" Content="類比型定址補償式探測器(探頭)(2種)(可續接)(無磁簧)(防水蓋)" HorizontalAlignment="Left" Margin="225,910,0,0" VerticalAlignment="Top" Height="25" Width="375"/>
+                <Label x:Name="N38" Content="類比型定址定溫式探測器(探頭)(1種)(可續接)(防水蓋)" HorizontalAlignment="Left" Margin="225,935,0,0" VerticalAlignment="Top" Height="25" Width="375"/>
+                <Label x:Name="N39" Content="類比定址補償式探測器(差動.定溫)(2種)(探頭)(IPX1)(防水蓋)" HorizontalAlignment="Left" Margin="225,960,0,0" VerticalAlignment="Top" Height="26" Width="375"/>
+                <Label x:Name="N40" Content="類比型定址補償式探測器(差動.定溫)(2種)(探頭)(防水蓋)" HorizontalAlignment="Left" Margin="225,985,0,0" VerticalAlignment="Top" Height="25" Width="375"/>
+                <Label x:Name="N41" Content="定址型差動式探測器底座(續接型)" HorizontalAlignment="Left" Margin="225,1010,0,0" VerticalAlignment="Top" Height="25" Width="375"/>
+                <Label x:Name="N42" Content="定址型定溫式探測器底座(續接型)" HorizontalAlignment="Left" Margin="225,1035,0,0" VerticalAlignment="Top" Height="25" Width="375"/>
+                <Label x:Name="N43" Content="複合式類比型定址探測器(光電2種.補償2種)(探頭)(防水蓋)" HorizontalAlignment="Left" Margin="225,1060,0,0" VerticalAlignment="Top" Height="25" Width="375"/>
+                <Label x:Name="N44" Content="類比探測器吸頂底座(FL-3117/FL-5117/FL-6117用)" HorizontalAlignment="Left" Margin="225,1085,0,0" VerticalAlignment="Top" Height="25" Width="375"/>
+                <Label x:Name="N45" Content="類比定址探測器底座(FL-3215/FL-5215/FL-6215用)" HorizontalAlignment="Left" Margin="225,1110,0,0" VerticalAlignment="Top" Height="25" Width="375"/>
+                <Label x:Name="N46" Content="類比定址探測器底座-高階吸頂(FL-3217/FL-5217/FL-6217用)" HorizontalAlignment="Left" Margin="225,1135,0,0" VerticalAlignment="Top" Height="25" Width="375"/>
+                <Label x:Name="N47" Content="類比定址續接探測器底座(FL-3015B、FL-5015B、FL-5035A)(附電容)" HorizontalAlignment="Left" Margin="224,1160,0,0" VerticalAlignment="Top" Height="25" Width="374"/>
+                <Label x:Name="N48" Content="IPC電源供應器排線(D36-8081)" HorizontalAlignment="Left" Margin="225,1185,0,0" VerticalAlignment="Top" Height="25" Width="375"/>
+                <Label x:Name="N49" Content="CF CARD 128MB" HorizontalAlignment="Left" Margin="225,1210,0,0" VerticalAlignment="Top" Height="24" Width="375"/>
+                <Label x:Name="N50" Content="IPC電源供應器(D36-8081)" HorizontalAlignment="Left" Margin="225,1235,0,0" VerticalAlignment="Top" Height="25" Width="375"/>
+                <Label x:Name="N51" Content="觸控式液晶螢幕17吋(閎亮)" HorizontalAlignment="Left" Margin="225,1260,0,0" VerticalAlignment="Top" Height="25" Width="375"/>
+                <Label x:Name="N52" Content="IPC主板 FB2400 版本#3136" HorizontalAlignment="Left" Margin="225,1285,0,0" VerticalAlignment="Top" Height="25" Width="375"/>
+                <Label x:Name="N53" Content="IPC-UTIL\IO232-03板" HorizontalAlignment="Left" Margin="225,1310,0,0" VerticalAlignment="Top" Height="25" Width="375"/>
+                <Label x:Name="N54" Content="總機-瓦斯蜂鳴器" HorizontalAlignment="Left" Margin="225,1335,0,0" VerticalAlignment="Top" Height="25" Width="375"/>
+                <Label x:Name="N55" Content="總機-蜂鳴器" HorizontalAlignment="Left" Margin="225,1360,0,0" VerticalAlignment="Top" Height="25" Width="375"/>
+                <Label x:Name="N56" Content="液晶螢幕 15吋(遠駿)" HorizontalAlignment="Left" Margin="225,1385,0,0" VerticalAlignment="Top" Height="25" Width="375"/>
+                <Label x:Name="N57" Content="SD CARD 4GHC" HorizontalAlignment="Left" Margin="225,1410,0,0" VerticalAlignment="Top" Height="25" Width="375"/>
+                <Label x:Name="N58" Content="8306螢幕(6吋LCD)" HorizontalAlignment="Left" Margin="225,1435,0,0" VerticalAlignment="Top" Height="25" Width="375"/>
+                <Label x:Name="N59" Content="電源供應器RSP-320-27(8215,8117,中繼站,8306)" HorizontalAlignment="Left" Margin="225,1460,0,0" VerticalAlignment="Top" Height="24" Width="375"/>
+                <Label x:Name="N60" Content="(銅麥拉)偵煙探頭-定址用(沒個認)一代" HorizontalAlignment="Left" Margin="225,1485,0,0" VerticalAlignment="Top" Height="25" Width="375"/>
+                <Label x:Name="N61" Content="UT-8801 USB轉RS-232轉換器 使用(FT232 晶片)" HorizontalAlignment="Left" Margin="225,1510,0,0" VerticalAlignment="Top" Height="25" Width="375"/>
+                <Label x:Name="N62" Content="廣播主板-廣播副板連接線" HorizontalAlignment="Left" Margin="225,1535,0,0" VerticalAlignment="Top" Height="25" Width="375"/>
+                <Label x:Name="N63" Content="RS232-通訊板連接線(90公分)" HorizontalAlignment="Left" Margin="225,1560,0,0" VerticalAlignment="Top" Height="25" Width="375"/>
+                <Label x:Name="N64" Content="總機-I/O電源板與控制面板連接排線(100公分)" HorizontalAlignment="Left" Margin="225,1585,0,0" VerticalAlignment="Top" Height="25" Width="375"/>
+                <Label x:Name="N65" Content="9.5cm 中繼站電源板與驅動板連接用" HorizontalAlignment="Left" Margin="225,1610,0,0" VerticalAlignment="Top" Height="25" Width="375"/>
+                <Label x:Name="N66" Content="驅動上下板連接線" HorizontalAlignment="Left" Margin="225,1635,0,0" VerticalAlignment="Top" Height="25" Width="375"/>
+                <Label x:Name="N67" Content="蜂鳴器-控制面板連接線" HorizontalAlignment="Left" Margin="225,1660,0,0" VerticalAlignment="Top" Height="25" Width="375"/>
+                <Label x:Name="N68" Content="廣播副板-廣播主機連接線" HorizontalAlignment="Left" Margin="225,1685,0,0" VerticalAlignment="Top" Height="25" Width="375"/>
+                <Label x:Name="N69" Content="廣播副板-廣播主機連接線500cm" HorizontalAlignment="Left" Margin="225,1710,0,0" VerticalAlignment="Top" Height="24" Width="375"/>
+                <Label x:Name="N70" Content="RS232-控制面板連接線" HorizontalAlignment="Left" Margin="225,1735,0,0" VerticalAlignment="Top" Height="25" Width="375"/>
+
+            </Grid>
+        </ScrollViewer>
+        <Button Content="UpData" HorizontalAlignment="Left" Margin="-277,252,0,0" VerticalAlignment="Top" Click="Button_Click" Height="19" Width="47"/>
+        <Button Content="Save" HorizontalAlignment="Left" Margin="-176,252,0,0" VerticalAlignment="Top" Click="Button_Click_1" Height="19" Width="30"/>
+        <Button Content="Load" HorizontalAlignment="Left" Margin="-116,252,0,0" VerticalAlignment="Top" Click="Button_Click_2" Height="19" Width="32"/>
+        <Label Content="清谷電子 陳璽文 庫存表" HorizontalAlignment="Left" VerticalAlignment="Top" Width="167" FontSize="15" FontStyle="Normal" FontStretch="Normal" FontWeight="Bold" FlowDirection="LeftToRight" Margin="253,0,0,0" Height="30" ScrollViewer.VerticalScrollBarVisibility="Disabled"/>
+        <Label Content="目前庫存" HorizontalAlignment="Left" VerticalAlignment="Top" Width="58" FontStyle="Normal" FontStretch="Normal" FontWeight="Bold" FlowDirection="LeftToRight" Margin="244,43,0,0" Height="30" ScrollViewer.VerticalScrollBarVisibility="Disabled"/>
+        <Label Content="入庫數量&#xD;&#xA;" HorizontalAlignment="Left" VerticalAlignment="Top" Width="58" FontStyle="Normal" FontStretch="Normal" FontWeight="Bold" FlowDirection="LeftToRight" Margin="346,43,0,0" Height="30" ScrollViewer.VerticalScrollBarVisibility="Disabled"/>
+        <Label Content="出庫數量" HorizontalAlignment="Left" VerticalAlignment="Top" Width="58" FontStyle="Normal" FontStretch="Normal" FontWeight="Bold" FlowDirection="LeftToRight" Margin="445,43,0,0" Height="30" ScrollViewer.VerticalScrollBarVisibility="Disabled" RenderTransformOrigin="0.569,0.459"/>
+
+
+
+    </Grid>
+</Window>
