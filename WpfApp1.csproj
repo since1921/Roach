@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon></ApplicationIcon>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath>C:\Users\user\Downloads\庫存程式\</OutputPath>
+    <DocumentationFile>C:\Users\user\source\repos\WpfApp1\WpfApp1.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Stock.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Stock.jpg" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,68 @@
+﻿WpfApp1.exe' (CoreCLR: DefaultDomain): 已載入 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.5\System.Private.CoreLib.dll'。已略過載入符號。模組已最佳化，並已啟用 [Just My Code] 偵錯工具選項。
+WpfApp1.exe' (CoreCLR: clrhost): 已載入 'C:\Users\user\source\repos\WpfApp1\bin\Release\net5.0-windows\WpfApp1.dll'。已略過載入符號。模組已最佳化，並已啟用 [Just My Code] 偵錯工具選項。
+模組 'WpfApp1.dll' 的符號並未載入。
+
+1. 請使用偵錯組建組態，或停用 [啟用 Just My Code] 偵錯選項。
+2. 檢查偵錯選項中的 [符號] 設定。WpfApp1.exe' (CoreCLR: clrhost): 已載入 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.5\PresentationFramework.dll'。已略過載入符號。模組已最佳化，並已啟用 [Just My Code] 偵錯工具選項。
+WpfApp1.exe' (CoreCLR: clrhost): 已載入 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.5\WindowsBase.dll'。已略過載入符號。模組已最佳化，並已啟用 [Just My Code] 偵錯工具選項。
+WpfApp1.exe' (CoreCLR: clrhost): 已載入 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.5\System.Runtime.dll'。已略過載入符號。模組已最佳化，並已啟用 [Just My Code] 偵錯工具選項。
+WpfApp1.exe' (CoreCLR: clrhost): 已載入 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.5\System.Xaml.dll'。已略過載入符號。模組已最佳化，並已啟用 [Just My Code] 偵錯工具選項。
+WpfApp1.exe' (CoreCLR: clrhost): 已載入 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.5\System.IO.Packaging.dll'。已略過載入符號。模組已最佳化，並已啟用 [Just My Code] 偵錯工具選項。
+WpfApp1.exe' (CoreCLR: clrhost): 已載入 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.5\netstandard.dll'。已略過載入符號。模組已最佳化，並已啟用 [Just My Code] 偵錯工具選項。
+WpfApp1.exe' (CoreCLR: clrhost): 已載入 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.5\System.Private.Uri.dll'。已略過載入符號。模組已最佳化，並已啟用 [Just My Code] 偵錯工具選項。
+WpfApp1.exe' (CoreCLR: clrhost): 已載入 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.5\PresentationCore.dll'。已略過載入符號。模組已最佳化，並已啟用 [Just My Code] 偵錯工具選項。
+WpfApp1.exe' (CoreCLR: clrhost): 已載入 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.5\mscorlib.dll'。已略過載入符號。模組已最佳化，並已啟用 [Just My Code] 偵錯工具選項。
+WpfApp1.exe' (CoreCLR: clrhost): 已載入 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.5\DirectWriteForwarder.dll'。已略過載入符號。模組已最佳化，並已啟用 [Just My Code] 偵錯工具選項。
+WpfApp1.exe' (CoreCLR: clrhost): 已載入 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.5\System.Runtime.Extensions.dll'。已略過載入符號。模組已最佳化，並已啟用 [Just My Code] 偵錯工具選項。
+WpfApp1.exe' (CoreCLR: clrhost): 已載入 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.5\System.Runtime.InteropServices.dll'。已略過載入符號。模組已最佳化，並已啟用 [Just My Code] 偵錯工具選項。
+WpfApp1.exe' (CoreCLR: clrhost): 已載入 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.5\System.Runtime.CompilerServices.VisualC.dll'。已略過載入符號。模組已最佳化，並已啟用 [Just My Code] 偵錯工具選項。
+WpfApp1.exe' (CoreCLR: clrhost): 已載入 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.5\System.Diagnostics.Debug.dll'。已略過載入符號。模組已最佳化，並已啟用 [Just My Code] 偵錯工具選項。
+WpfApp1.exe' (CoreCLR: clrhost): 已載入 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.5\System.Threading.dll'。已略過載入符號。模組已最佳化，並已啟用 [Just My Code] 偵錯工具選項。
+WpfApp1.exe' (CoreCLR: clrhost): 已載入 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.5\Microsoft.Win32.Primitives.dll'。已略過載入符號。模組已最佳化，並已啟用 [Just My Code] 偵錯工具選項。
+WpfApp1.exe' (CoreCLR: clrhost): 已載入 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.5\System.Collections.NonGeneric.dll'。已略過載入符號。模組已最佳化，並已啟用 [Just My Code] 偵錯工具選項。
+WpfApp1.exe' (CoreCLR: clrhost): 已載入 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.5\System.Linq.dll'。已略過載入符號。模組已最佳化，並已啟用 [Just My Code] 偵錯工具選項。
+WpfApp1.exe' (CoreCLR: clrhost): 已載入 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.5\System.Collections.dll'。已略過載入符號。模組已最佳化，並已啟用 [Just My Code] 偵錯工具選項。
+WpfApp1.exe' (CoreCLR: clrhost): 已載入 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.5\Microsoft.Win32.Registry.dll'。已略過載入符號。模組已最佳化，並已啟用 [Just My Code] 偵錯工具選項。
+WpfApp1.exe' (CoreCLR: clrhost): 已載入 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.5\System.Diagnostics.TraceSource.dll'。已略過載入符號。模組已最佳化，並已啟用 [Just My Code] 偵錯工具選項。
+WpfApp1.exe' (CoreCLR: clrhost): 已載入 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.5\System.Collections.Specialized.dll'。已略過載入符號。模組已最佳化，並已啟用 [Just My Code] 偵錯工具選項。
+WpfApp1.exe' (CoreCLR: clrhost): 已載入 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.5\System.ComponentModel.Primitives.dll'。已略過載入符號。模組已最佳化，並已啟用 [Just My Code] 偵錯工具選項。
+WpfApp1.exe' (CoreCLR: clrhost): 已載入 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.5\System.Threading.Thread.dll'。已略過載入符號。模組已最佳化，並已啟用 [Just My Code] 偵錯工具選項。
+WpfApp1.exe' (CoreCLR: clrhost): 已載入 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.5\System.Configuration.ConfigurationManager.dll'。已略過載入符號。模組已最佳化，並已啟用 [Just My Code] 偵錯工具選項。
+WpfApp1.exe' (CoreCLR: clrhost): 已載入 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.5\System.Xml.ReaderWriter.dll'。已略過載入符號。模組已最佳化，並已啟用 [Just My Code] 偵錯工具選項。
+WpfApp1.exe' (CoreCLR: clrhost): 已載入 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.5\System.Private.Xml.dll'。已略過載入符號。模組已最佳化，並已啟用 [Just My Code] 偵錯工具選項。
+WpfApp1.exe' (CoreCLR: clrhost): 已載入 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.5\System.IO.FileSystem.dll'。已略過載入符號。模組已最佳化，並已啟用 [Just My Code] 偵錯工具選項。
+WpfApp1.exe' (CoreCLR: clrhost): 已載入 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.5\System.Net.WebClient.dll'。已略過載入符號。模組已最佳化，並已啟用 [Just My Code] 偵錯工具選項。
+WpfApp1.exe' (CoreCLR: clrhost): 已載入 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.5\System.Memory.dll'。已略過載入符號。模組已最佳化，並已啟用 [Just My Code] 偵錯工具選項。
+WpfApp1.exe' (CoreCLR: clrhost): 已載入 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.5\System.Security.Cryptography.Algorithms.dll'。已略過載入符號。模組已最佳化，並已啟用 [Just My Code] 偵錯工具選項。
+WpfApp1.exe' (CoreCLR: clrhost): 已載入 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.5\System.Text.Encoding.Extensions.dll'。已略過載入符號。模組已最佳化，並已啟用 [Just My Code] 偵錯工具選項。
+WpfApp1.exe' (CoreCLR: clrhost): 已載入 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.5\System.ComponentModel.dll'。已略過載入符號。模組已最佳化，並已啟用 [Just My Code] 偵錯工具選項。
+WpfApp1.exe' (CoreCLR: clrhost): 已載入 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.5\System.ComponentModel.TypeConverter.dll'。已略過載入符號。模組已最佳化，並已啟用 [Just My Code] 偵錯工具選項。
+WpfApp1.exe' (CoreCLR: clrhost): 已載入 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.5\System.Windows.Extensions.dll'。已略過載入符號。模組已最佳化，並已啟用 [Just My Code] 偵錯工具選項。
+WpfApp1.exe' (CoreCLR: clrhost): 已載入 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.5\System.Threading.ThreadPool.dll'。已略過載入符號。模組已最佳化，並已啟用 [Just My Code] 偵錯工具選項。
+WpfApp1.exe' (CoreCLR: clrhost): 已載入 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.5\System.Collections.Concurrent.dll'。已略過載入符號。模組已最佳化，並已啟用 [Just My Code] 偵錯工具選項。
+WpfApp1.exe' (CoreCLR: clrhost): 已載入 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.5\System.ObjectModel.dll'。已略過載入符號。模組已最佳化，並已啟用 [Just My Code] 偵錯工具選項。
+WpfApp1.exe' (CoreCLR: clrhost): 已載入 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.5\UIAutomationTypes.dll'。已略過載入符號。模組已最佳化，並已啟用 [Just My Code] 偵錯工具選項。
+WpfApp1.exe' (CoreCLR: clrhost): 已載入 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.5\System.Net.Requests.dll'。已略過載入符號。模組已最佳化，並已啟用 [Just My Code] 偵錯工具選項。
+WpfApp1.exe' (CoreCLR: clrhost): 已載入 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.5\System.Net.Primitives.dll'。已略過載入符號。模組已最佳化，並已啟用 [Just My Code] 偵錯工具選項。
+WpfApp1.exe' (CoreCLR: clrhost): 已載入 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.5\System.Net.WebHeaderCollection.dll'。已略過載入符號。模組已最佳化，並已啟用 [Just My Code] 偵錯工具選項。
+WpfApp1.exe' (CoreCLR: clrhost): 已載入 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.5\System.Diagnostics.Process.dll'。已略過載入符號。模組已最佳化，並已啟用 [Just My Code] 偵錯工具選項。
+WpfApp1.exe' (CoreCLR: clrhost): 已載入 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.5\zh-Hant\PresentationFramework.resources.dll'。建置的模組沒有符號。
+WpfApp1.exe' (CoreCLR: clrhost): 已載入 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.5\UIAutomationProvider.dll'。已略過載入符號。模組已最佳化，並已啟用 [Just My Code] 偵錯工具選項。
+WpfApp1.exe' (CoreCLR: clrhost): 已載入 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.5\PresentationFramework.Aero2.dll'。已略過載入符號。模組已最佳化，並已啟用 [Just My Code] 偵錯工具選項。
+WpfApp1.exe' (CoreCLR: clrhost): 已載入 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.5\zh-Hant\PresentationCore.resources.dll'。建置的模組沒有符號。
+WpfApp1.exe' (CoreCLR: clrhost): 已載入 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.5\PresentationFramework-SystemXml.dll'。已略過載入符號。模組已最佳化，並已啟用 [Just My Code] 偵錯工具選項。
+WpfApp1.exe' (CoreCLR: clrhost): 已載入 'c:\program files (x86)\microsoft visual studio\2019\community\common7\ide\commonextensions\microsoft\xamldiagnostics\Core\x64\Microsoft.VisualStudio.DesignTools.WpfTap.dll'。已略過載入符號。模組已最佳化，並已啟用 [Just My Code] 偵錯工具選項。
+WpfApp1.exe' (CoreCLR: clrhost): 已載入 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.5\System.Diagnostics.Tracing.dll'。已略過載入符號。模組已最佳化，並已啟用 [Just My Code] 偵錯工具選項。
+WpfApp1.exe' (CoreCLR: clrhost): 已載入 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.5\System.Text.RegularExpressions.dll'。已略過載入符號。模組已最佳化，並已啟用 [Just My Code] 偵錯工具選項。
+WpfApp1.exe' (CoreCLR: clrhost): 已載入 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.5\System.IO.Pipes.dll'。已略過載入符號。模組已最佳化，並已啟用 [Just My Code] 偵錯工具選項。
+WpfApp1.exe' (CoreCLR: clrhost): 已載入 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.5\System.Threading.Tasks.dll'。已略過載入符號。模組已最佳化，並已啟用 [Just My Code] 偵錯工具選項。
+WpfApp1.exe' (CoreCLR: clrhost): 已載入 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.5\System.Runtime.Serialization.Json.dll'。已略過載入符號。模組已最佳化，並已啟用 [Just My Code] 偵錯工具選項。
+WpfApp1.exe' (CoreCLR: clrhost): 已載入 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.5\System.Private.DataContractSerialization.dll'。已略過載入符號。模組已最佳化，並已啟用 [Just My Code] 偵錯工具選項。
+WpfApp1.exe' (CoreCLR: clrhost): 已載入 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.5\System.Runtime.Serialization.Xml.dll'。已略過載入符號。模組已最佳化，並已啟用 [Just My Code] 偵錯工具選項。
+WpfApp1.exe' (CoreCLR: clrhost): 已載入 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.5\System.Runtime.Serialization.Primitives.dll'。已略過載入符號。模組已最佳化，並已啟用 [Just My Code] 偵錯工具選項。
+WpfApp1.exe' (CoreCLR: clrhost): 已載入 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.5\System.Resources.ResourceManager.dll'。已略過載入符號。模組已最佳化，並已啟用 [Just My Code] 偵錯工具選項。
+WpfApp1.exe' (CoreCLR: clrhost): 已載入 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.5\System.Reflection.Emit.ILGeneration.dll'。已略過載入符號。模組已最佳化，並已啟用 [Just My Code] 偵錯工具選項。
+WpfApp1.exe' (CoreCLR: clrhost): 已載入 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.5\System.Reflection.Emit.Lightweight.dll'。已略過載入符號。模組已最佳化，並已啟用 [Just My Code] 偵錯工具選項。
+WpfApp1.exe' (CoreCLR: clrhost): 已載入 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.5\System.Reflection.Primitives.dll'。已略過載入符號。模組已最佳化，並已啟用 [Just My Code] 偵錯工具選項。
+WpfApp1.exe' (CoreCLR: clrhost): 已載入 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.5\System.Runtime.Serialization.Formatters.dll'。已略過載入符號。模組已最佳化，並已啟用 [Just My Code] 偵錯工具選項。
+'[8500] WpfApp1.exe' 程式以返回碼 0 (0x0) 結束。
