@@ -13,11 +13,11 @@
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
-        <ScrollViewer Margin="24,73,10,114">
+        <ScrollViewer Margin="24,73,10,122">
             <ScrollViewer.Background>
                 <SolidColorBrush Color="{DynamicResource {x:Static SystemColors.ControlLightLightColorKey}}"/>
             </ScrollViewer.Background>
-            <Grid x:Name="G2" Height="2114" Margin="0,5,0,0">
+            <Grid x:Name="G2" Height="1771" Margin="0,5,0,0">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="577"/>
                 </Grid.ColumnDefinitions>
@@ -384,23 +384,10 @@
 
             </Grid>
         </ScrollViewer>
-        <Button Content="UpData" HorizontalAlignment="Left" Margin="300,444,0,0" VerticalAlignment="Top" Click="Button_Click" Height="19" Width="95" Visibility="Visible" FontStyle="Normal">
-            <Button.Background>
-                <SolidColorBrush Color="#FFDDDDDD"/>
-            </Button.Background>
-            <Button.BorderBrush>
-                <SolidColorBrush Color="#FF707070"/>
-            </Button.BorderBrush>
-            <Button.FocusVisualStyle>
-                <Style/>
-            </Button.FocusVisualStyle>
-            <Button.Style>
-                <Style/>
-            </Button.Style>
-        </Button>
+        <Button Content="UpData" HorizontalAlignment="Left" Margin="300,444,0,0" VerticalAlignment="Top" Click="Button_Click" Height="19" Width="95" Visibility="Visible" FontStyle="Normal"/>
         <Button Content="Save" HorizontalAlignment="Left" Margin="500,444,0,0" VerticalAlignment="Top" Click="Button_Click_1" Height="19" Width="90"/>
-        <Button Content="Load" HorizontalAlignment="Left" Margin="700,444,0,0" VerticalAlignment="Top" Click="Button_Click_2" Height="19" Width="80"/>
-        <Label Content="清谷電子 陳璽文 庫存表" HorizontalAlignment="Center" VerticalAlignment="Top" Width="198" FontSize="18" FontStyle="Normal" FontStretch="Normal" FontWeight="Bold" FlowDirection="LeftToRight" Height="30" ScrollViewer.VerticalScrollBarVisibility="Disabled"/>
+        <!--<Button Content="Load" HorizontalAlignment="Left" Margin="700,444,0,0" VerticalAlignment="Top" Click="Button_Click_2" Height="19" Width="80"/>-->
+        <Label Content="SA055 庫存表" HorizontalAlignment="Left" VerticalAlignment="Top" Width="198" FontSize="18" FontStyle="Normal" FontStretch="Normal" FontWeight="Bold" FlowDirection="LeftToRight" Height="30" ScrollViewer.VerticalScrollBarVisibility="Disabled" Margin="348,0,0,0"/>
         <Label Content="目前庫存" HorizontalAlignment="Left" VerticalAlignment="Top" Width="58" FontStyle="Normal" FontStretch="Normal" FontWeight="Bold" FlowDirection="LeftToRight" Margin="615,41,0,0" Height="30" ScrollViewer.VerticalScrollBarVisibility="Disabled"/>
         <Label Content="入庫數量" HorizontalAlignment="Left" VerticalAlignment="Top" Width="58" FontStyle="Normal" FontStretch="Normal" FontWeight="Bold" FlowDirection="LeftToRight" Margin="680,41,0,0" Height="30" ScrollViewer.VerticalScrollBarVisibility="Disabled"/>
         <Label Content="出庫數量" HorizontalAlignment="Left" VerticalAlignment="Top" Width="58" FontStyle="Normal" FontStretch="Normal" FontWeight="Bold" FlowDirection="LeftToRight" Margin="743,41,0,0" Height="30" ScrollViewer.VerticalScrollBarVisibility="Disabled" RenderTransformOrigin="0.569,0.459"/>
